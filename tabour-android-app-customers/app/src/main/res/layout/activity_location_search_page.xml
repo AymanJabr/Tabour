@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LocationSearchPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.10"
+        android:background="@drawable/search_border"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:background="#fff"
+            android:src="@drawable/search_pic"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="ابحث....."
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical"
+
+            android:layout_weight="4"/>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="15dp"
+                android:layout_marginHorizontal="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1"/>
+
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/mcDonaldImgBtnLoc"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="اسم الموقع"
+                        android:textAlignment="textStart"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="شرح مبسط مع عنوان الموقع"
+                        android:textAlignment="textStart"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:text="عدد الأشخاص المنتظرين"
+                            android:textAlignment="textStart"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:text="الوقت المتوقع للانتظار"
+                            android:textAlignment="textStart"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="2dp"
+                        android:background="@color/colorPrimaryGreen"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="15dp"
+                android:layout_marginHorizontal="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1"/>
+
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="اسم الموقع"
+                        android:textAlignment="textStart"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="شرح مبسط مع عنوان الموقع"
+                        android:textAlignment="textStart"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:text="عدد الأشخاص المنتظرين"
+                            android:textAlignment="textStart"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:text="الوقت المتوقع للانتظار"
+                            android:textAlignment="textStart"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="2dp"
+                        android:background="@color/colorPrimaryGreen"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="15dp"
+                android:layout_marginHorizontal="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1"/>
+
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="اسم الموقع"
+                        android:textAlignment="textStart"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="شرح مبسط مع عنوان الموقع"
+                        android:textAlignment="textStart"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:text="عدد الأشخاص المنتظرين"
+                            android:textAlignment="textStart"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:text="الوقت المتوقع للانتظار"
+                            android:textAlignment="textStart"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="2dp"
+                        android:background="@color/colorPrimaryGreen"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainSearchPageCategory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.10"
+        android:background="@drawable/search_border"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:background="#fff"
+            android:src="@drawable/search_pic"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="ابحث....."
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical"
+
+            android:layout_weight="4"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/searchPopularityBtnMSC"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="البحث حسب الشعبية"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:background="#fff"
+            android:textColor="#000"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="0.05">
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:background="#fff"
+                            android:paddingBottom="4dp"
+                            android:paddingLeft="280dp"
+                            android:src="@drawable/caret_down_pic"
+                            android:layout_weight="8"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:text="المطاعم"
+                            android:layout_weight="2"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="10dp">
+
+                            <ImageButton
+                                android:id="@+id/mcDonaldImgBtnMSC"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"
+                                android:text="اسم الشركة"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="وصف مبسط"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="10dp">
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:layout_gravity="end"
+                                android:paddingBottom="20dp"
+                                android:text="اسم الشركة"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="وصف مبسط"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="0.05">
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:background="#fff"
+                            android:paddingBottom="4dp"
+                            android:paddingLeft="280dp"
+                            android:src="@drawable/caret_down_pic"
+                            android:layout_weight="8"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:text="البنوك"
+                            android:layout_weight="2"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="10dp">
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"
+                                android:text="اسم الشركة"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="وصف مبسط"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="10dp">
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:layout_gravity="end"
+                                android:paddingBottom="20dp"
+                                android:text="اسم الشركة"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="وصف مبسط"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="0.05">
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:background="#fff"
+                            android:paddingBottom="4dp"
+                            android:paddingLeft="160dp"
+                            android:src="@drawable/caret_down_pic"
+                            android:layout_weight="5"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:text="المؤسسات الحكومية"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="10dp">
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"
+                                android:text="اسم الشركة"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="وصف مبسط"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="10dp">
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:layout_gravity="end"
+                                android:paddingBottom="20dp"
+                                android:text="اسم الشركة"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="وصف مبسط"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="0.05">
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:background="#fff"
+                            android:paddingBottom="4dp"
+                            android:paddingLeft="280dp"
+                            android:src="@drawable/caret_down_pic"
+                            android:layout_weight="8"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:text="الجامعات"
+                            android:layout_weight="2"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="10dp">
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"
+                                android:text="اسم الشركة"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="وصف مبسط"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="10dp">
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:layout_gravity="end"
+                                android:paddingBottom="20dp"
+                                android:text="اسم الشركة"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="وصف مبسط"
+                                android:background="#fff"
+                                android:textSize="23sp"
+                                android:layout_gravity="end"
+                                android:textAlignment="viewEnd"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="20dp"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

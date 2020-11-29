@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="#fff"
+android:orientation="vertical"
+android:layout_height="match_parent"
+    tools:context=".Ticket">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:text="اسم الموقع"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:paddingVertical="10dp"
+                    android:background="@color/colorPrimaryGreen"
+                    android:text="رقمك"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginVertical="10dp"
+                    android:background="#fff"
+                    android:text="الرقم الحالي"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginVertical="10dp"
+                    android:background="#fff"
+                    android:text="الوقت المتوقع للانتظار"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:layout_margin="20dp"
+                    android:background="@drawable/round_button"
+                    android:layout_width="match_parent"
+                    android:text="الغاء الطلبم"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_button"
+                    android:layout_width="match_parent"
+                    android:text="احجز رقم  سريعم"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:text="الارقام المتاحة"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="0000"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="0000"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="0000"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

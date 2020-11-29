@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".PaymentMethod">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.1"
+        android:background="#fff"
+        android:text="محفظتك"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="0.25"
+        android:background="#fff"
+        android:text="$$00000"
+        android:textAlignment="center"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="0.05"
+        android:background="#fff"
+        android:text="طرق الدفع"
+        android:textAlignment="textStart"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="100dp"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="150dp"/>
+
+    <Button
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button"
+        android:layout_width="match_parent"
+        android:text="ادخل الكوبون  لتحصل على خصم "
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>
